@@ -1,0 +1,92 @@
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I MainModule.ngc MainModule.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MainModule_map.ncd MainModule.ngd MainModule.pcf 
+par -w -intstyle ise -ol high -mt off MainModule_map.ncd MainModule.ncd MainModule.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml MainModule.twx MainModule.ncd -o MainModule.twr MainModule.pcf 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I MainModule.ngc MainModule.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MainModule_map.ncd MainModule.ngd MainModule.pcf 
+par -w -intstyle ise -ol high -mt off MainModule_map.ncd MainModule.ncd MainModule.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml MainModule.twx MainModule.ncd -o MainModule.twr MainModule.pcf 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I MainModule.ngc MainModule.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MainModule_map.ncd MainModule.ngd MainModule.pcf 
+par -w -intstyle ise -ol high -mt off MainModule_map.ncd MainModule.ncd MainModule.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml MainModule.twx MainModule.ncd -o MainModule.twr MainModule.pcf 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I MainModule.ngc MainModule.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MainModule_map.ncd MainModule.ngd MainModule.pcf 
+par -w -intstyle ise -ol high -mt off MainModule_map.ncd MainModule.ncd MainModule.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml MainModule.twx MainModule.ncd -o MainModule.twr MainModule.pcf 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I MainModule.ngc MainModule.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MainModule_map.ncd MainModule.ngd MainModule.pcf 
+par -w -intstyle ise -ol high -mt off MainModule_map.ncd MainModule.ncd MainModule.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml MainModule.twx MainModule.ncd -o MainModule.twr MainModule.pcf 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I MainModule.ngc MainModule.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MainModule_map.ncd MainModule.ngd MainModule.pcf 
+par -w -intstyle ise -ol high -mt off MainModule_map.ncd MainModule.ncd MainModule.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml MainModule.twx MainModule.ncd -o MainModule.twr MainModule.pcf 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I MainModule.ngc MainModule.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MainModule_map.ncd MainModule.ngd MainModule.pcf 
+par -w -intstyle ise -ol high -mt off MainModule_map.ncd MainModule.ncd MainModule.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml MainModule.twx MainModule.ncd -o MainModule.twr MainModule.pcf 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I MainModule.ngc MainModule.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MainModule_map.ncd MainModule.ngd MainModule.pcf 
+par -w -intstyle ise -ol high -mt off MainModule_map.ncd MainModule.ncd MainModule.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml MainModule.twx MainModule.ncd -o MainModule.twr MainModule.pcf 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I MainModule.ngc MainModule.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MainModule_map.ncd MainModule.ngd MainModule.pcf 
+par -w -intstyle ise -ol high -mt off MainModule_map.ncd MainModule.ncd MainModule.pcf 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+vhdtdtfi -lib work mypackage.vhd -lib work mux41.vhd -lib work mux21.vhd -lib work FullAdder.vhd -lib work SingleBitALU.vhd -lib work register.vhd -lib work Reg32_1.vhd -lib work Reg32_0.vhd -lib work Mux.vhd -lib work MSBALU.vhd -lib work Decoder.vhd -lib work TranslationUnit.vhd -lib work RegisterFile.vhd -lib work InstMem.V3.vhd -lib work GenericReg.vhd -lib work FullALU.vhd -lib work Conditional.vhd -lib work MainModule.vhd -prj SingleBitALU -o MainModule.spl -module MainModule -template G:/xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family aartix7 MainModule.spl {F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.sym} 
+xst -intstyle ise -ifn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.xst" -ofn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.syr" 
+vhdtdtfi -lib work mypackage.vhd -lib work mux41.vhd -lib work mux21.vhd -lib work FullAdder.vhd -lib work SingleBitALU.vhd -lib work register.vhd -lib work Reg32_0.vhd -lib work Mux.vhd -lib work MSBALU.vhd -lib work Decoder.vhd -lib work signExt.vhd -lib work RegisterFile.vhd -lib work mux21WORD6.vhd -lib work InstMem.V3.vhd -lib work GenericReg.vhd -lib work FullALU.vhd -lib work Datamem.V4.vhd -lib work CU.vhd -lib work ALUControl.vhd -lib work MainModule.vhd -prj SingleBitALU -o MainModule.spl -module MainModule -template G:/xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family aartix7 MainModule.spl {F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.sym} 
+vhdtdtfi -lib work mypackage.vhd -lib work mux41.vhd -lib work mux21.vhd -lib work FullAdder.vhd -lib work SingleBitALU.vhd -lib work register.vhd -lib work Reg32_0.vhd -lib work Mux.vhd -lib work MSBALU.vhd -lib work Decoder.vhd -lib work signExt.vhd -lib work RegisterFile.vhd -lib work mux21WORD6.vhd -lib work InstMem.V3.vhd -lib work GenericReg.vhd -lib work FullALU.vhd -lib work Datamem.V4.vhd -lib work CU.vhd -lib work ALUControl.vhd -lib work MainModule.vhd -prj SingleBitALU -o MainModule.spl -module MainModule -template G:/xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family aartix7 MainModule.spl {F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.sym} 
+vhdtdtfi -lib work mypackage.vhd -lib work mux41.vhd -lib work mux21.vhd -lib work FullAdder.vhd -lib work SingleBitALU.vhd -lib work register.vhd -lib work Reg32_0.vhd -lib work Mux.vhd -lib work MSBALU.vhd -lib work Decoder.vhd -lib work signExt.vhd -lib work RegisterFile.vhd -lib work mux21WORD6.vhd -lib work InstMem.V3.vhd -lib work GenericReg.vhd -lib work FullALU.vhd -lib work Datamem.V4.vhd -lib work CU.vhd -lib work ALUControl.vhd -lib work MainModule.vhd -prj SingleBitALU -o MainModule.spl -module MainModule -template G:/xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family aartix7 MainModule.spl {F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.sym} 
+vhdtdtfi -lib work mypackage.vhd -lib work mux41.vhd -lib work mux21.vhd -lib work FullAdder.vhd -lib work SingleBitALU.vhd -lib work register.vhd -lib work Reg32_0.vhd -lib work Mux.vhd -lib work MSBALU.vhd -lib work Decoder.vhd -lib work signExt.vhd -lib work RegisterFile.vhd -lib work mux21WORD6.vhd -lib work InstMem.V3.vhd -lib work GenericReg.vhd -lib work FullALU.vhd -lib work Datamem.V4.vhd -lib work CU.vhd -lib work ALUControl.vhd -lib work MainModule.vhd -prj SingleBitALU -o MainModule.spl -module MainModule -template G:/xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family aartix7 MainModule.spl {F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.sym} 
+vhdtdtfi -lib work mypackage.vhd -lib work mux41.vhd -lib work mux21.vhd -lib work FullAdder.vhd -lib work SingleBitALU.vhd -lib work register.vhd -lib work Reg32_0.vhd -lib work Mux.vhd -lib work MSBALU.vhd -lib work Decoder.vhd -lib work signExt.vhd -lib work RegisterFile.vhd -lib work mux21WORD6.vhd -lib work InstMem.V3.vhd -lib work GenericReg.vhd -lib work FullALU.vhd -lib work Datamem.V4.vhd -lib work CU.vhd -lib work ALUControl.vhd -lib work MainModule.vhd -prj SingleBitALU -o MainModule.spl -module MainModule -template G:/xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family aartix7 -w MainModule.spl {F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.sym} 
+xst -intstyle ise -ifn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.xst" -ofn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.xst" -ofn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.xst" -ofn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.xst" -ofn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.xst" -ofn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.xst" -ofn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.xst" -ofn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.xst" -ofn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.xst" -ofn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.xst" -ofn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.xst" -ofn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.xst" -ofn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.xst" -ofn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.xst" -ofn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.xst" -ofn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.xst" -ofn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.xst" -ofn "F:/KOLIA-3Y/computer architecture/project/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/MainModule.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/MainModule.syr" 

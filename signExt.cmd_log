@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/signExt.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/signExt.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/signExt.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/signExt.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/signExt.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/signExt.syr" 

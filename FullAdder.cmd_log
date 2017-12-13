@@ -1,0 +1,5 @@
+vhdtdtfi -lib work mypackage.vhd -lib work FullAdder.vhd -prj SingleBitALU -o FullAdder.spl -module FullAdder -template D:/Xilinix/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family aartix7 FullAdder.spl D:/Xilinix/Projects/SingleBitALU/FullAdder.sym 
+vhdtdtfi -prj SingleBitALU -o D:/Xilinix/Projects/SingleBitALU/FullAdder.tfi -module FullAdder -template D:/Xilinix/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work mypackage.vhd -lib work FullAdder.vhd 
+vhdtdtfi -prj SingleBitALU -o D:/Xilinix/Projects/SingleBitALU/FullAdder.tfi -module FullAdder -template D:/Xilinix/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work mypackage.vhd -lib work FullAdder.vhd 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/FullAdder.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/FullAdder.syr" 

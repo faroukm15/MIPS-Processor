@@ -1,0 +1,1042 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.50 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.50 secs
+ 
+--> Reading design: MainModule.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "MainModule.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "MainModule"
+Output Format                      : NGC
+Target Device                      : xa7a100t-2I-csg324
+
+---- Source Options
+Top Module Name                    : MainModule
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\Xilinix\Projects\SingleBitALU\mypackage.vhd" into library work
+Parsing package <mypackage>.
+Parsing package body <mypackage>.
+Parsing VHDL file "D:\Xilinix\Projects\SingleBitALU\mux41.vhd" into library work
+Parsing entity <mux41>.
+Parsing architecture <Behavioral> of entity <mux41>.
+Parsing VHDL file "D:\Xilinix\Projects\SingleBitALU\mux21.vhd" into library work
+Parsing entity <mux21>.
+Parsing architecture <Behavioral> of entity <mux21>.
+Parsing VHDL file "D:\Xilinix\Projects\SingleBitALU\FullAdder.vhd" into library work
+Parsing entity <FullAdder>.
+Parsing architecture <Behavioral> of entity <fulladder>.
+Parsing VHDL file "D:\Xilinix\Projects\SingleBitALU\SingleBitALU.vhd" into library work
+Parsing entity <SingleBitALU>.
+Parsing architecture <Behavioral> of entity <singlebitalu>.
+WARNING:HDLCompiler:946 - "D:\Xilinix\Projects\SingleBitALU\SingleBitALU.vhd" Line 51: Actual for formal port bus1 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:\Xilinix\Projects\SingleBitALU\SingleBitALU.vhd" Line 52: Actual for formal port bus1 is neither a static name nor a globally static expression
+Parsing VHDL file "D:\Xilinix\Projects\SingleBitALU\register.vhd" into library work
+Parsing entity <reg>.
+Parsing architecture <Behavioral> of entity <reg>.
+Parsing VHDL file "D:\Xilinix\Projects\SingleBitALU\Reg32_0.vhd" into library work
+Parsing entity <Reg32_0>.
+Parsing architecture <Behavioral> of entity <reg32_0>.
+Parsing VHDL file "D:\Xilinix\Projects\SingleBitALU\Mux.vhd" into library work
+Parsing entity <Mux>.
+Parsing architecture <Behavioral> of entity <mux>.
+Parsing VHDL file "D:\Xilinix\Projects\SingleBitALU\MSBALU.vhd" into library work
+Parsing entity <MSBALU>.
+Parsing architecture <Behavioral> of entity <msbalu>.
+WARNING:HDLCompiler:946 - "D:\Xilinix\Projects\SingleBitALU\MSBALU.vhd" Line 54: Actual for formal port bus1 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:\Xilinix\Projects\SingleBitALU\MSBALU.vhd" Line 55: Actual for formal port bus1 is neither a static name nor a globally static expression
+Parsing VHDL file "D:\Xilinix\Projects\SingleBitALU\Decoder.vhd" into library work
+Parsing entity <Decoder>.
+Parsing architecture <Behavioral> of entity <decoder>.
+Parsing VHDL file "D:\Xilinix\Projects\SingleBitALU\signExt.vhd" into library work
+Parsing entity <signExt>.
+Parsing architecture <Behavioral> of entity <signext>.
+Parsing VHDL file "D:\Xilinix\Projects\SingleBitALU\RegisterFile.vhd" into library work
+Parsing entity <RegisterFile>.
+Parsing architecture <Behavioral> of entity <registerfile>.
+Parsing VHDL file "D:\Xilinix\Projects\SingleBitALU\mux21WORD6.vhd" into library work
+Parsing entity <mux21VAR>.
+Parsing architecture <Behavioral> of entity <mux21var>.
+Parsing VHDL file "D:\Xilinix\Projects\SingleBitALU\InstMem.V3.vhd" into library work
+Parsing entity <INSTRMEMORY>.
+Parsing architecture <BEHAVIORAL> of entity <instrmemory>.
+Parsing VHDL file "D:\Xilinix\Projects\SingleBitALU\GenericReg.vhd" into library work
+Parsing entity <greg>.
+Parsing architecture <Behavioral> of entity <greg>.
+Parsing VHDL file "D:\Xilinix\Projects\SingleBitALU\FullALU.vhd" into library work
+Parsing entity <ALU>.
+Parsing architecture <Behavioral> of entity <alu>.
+Parsing VHDL file "D:\Xilinix\Projects\SingleBitALU\Datamem.V4.vhd" into library work
+Parsing entity <DATAMEMORY>.
+Parsing architecture <BEHAVIORAL> of entity <datamemory>.
+Parsing VHDL file "D:\Xilinix\Projects\SingleBitALU\CU.vhd" into library work
+Parsing entity <CU>.
+Parsing architecture <Behavioral> of entity <cu>.
+Parsing VHDL file "D:\Xilinix\Projects\SingleBitALU\ALUControl.vhd" into library work
+Parsing entity <ALUControl>.
+Parsing architecture <Behavioral> of entity <alucontrol>.
+Parsing VHDL file "D:\Xilinix\Projects\SingleBitALU\MainModule.vhd" into library work
+Parsing entity <MainModule>.
+Parsing architecture <Behavioral> of entity <mainmodule>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <MainModule> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <greg> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <INSTRMEMORY> (architecture <BEHAVIORAL>) with generics from library <work>.
+WARNING:HDLCompiler:92 - "D:\Xilinix\Projects\SingleBitALU\InstMem.V3.vhd" Line 32: loadit should be on the sensitivity list of the process
+WARNING:HDLCompiler:634 - "D:\Xilinix\Projects\SingleBitALU\InstMem.V3.vhd" Line 27: Net <ROM_PROCESS.MEMORY[33][31]> does not have a driver.
+
+Elaborating entity <CU> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <mux21VAR> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <signExt> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <RegisterFile> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Decoder> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Reg32_0> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <reg> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Mux> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <mux21VAR> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <ALUControl> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ALU> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <SingleBitALU> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <mux21> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <FullAdder> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <mux41> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MSBALU> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DATAMEMORY> (architecture <BEHAVIORAL>) with generics from library <work>.
+WARNING:HDLCompiler:92 - "D:\Xilinix\Projects\SingleBitALU\Datamem.V4.vhd" Line 28: loadit should be on the sensitivity list of the process
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <MainModule>.
+    Related source file is "D:\Xilinix\Projects\SingleBitALU\MainModule.vhd".
+INFO:Xst:3210 - "D:\Xilinix\Projects\SingleBitALU\MainModule.vhd" line 77: Output port <cflag> of the instance <ALUR> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinix\Projects\SingleBitALU\MainModule.vhd" line 77: Output port <oflag> of the instance <ALUR> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinix\Projects\SingleBitALU\MainModule.vhd" line 83: Output port <cflag> of the instance <ALUAddPc> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinix\Projects\SingleBitALU\MainModule.vhd" line 83: Output port <zflag> of the instance <ALUAddPc> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinix\Projects\SingleBitALU\MainModule.vhd" line 83: Output port <oflag> of the instance <ALUAddPc> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinix\Projects\SingleBitALU\MainModule.vhd" line 88: Output port <cflag> of the instance <ALUAdd2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinix\Projects\SingleBitALU\MainModule.vhd" line 88: Output port <zflag> of the instance <ALUAdd2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Xilinix\Projects\SingleBitALU\MainModule.vhd" line 88: Output port <oflag> of the instance <ALUAdd2> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <MainModule> synthesized.
+
+Synthesizing Unit <greg>.
+    Related source file is "D:\Xilinix\Projects\SingleBitALU\GenericReg.vhd".
+        n = 32
+    Found 32-bit register for signal <temp>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <greg> synthesized.
+
+Synthesizing Unit <INSTRMEMORY>.
+    Related source file is "D:\Xilinix\Projects\SingleBitALU\InstMem.V3.vhd".
+        words = 64
+        wordsize = 32
+        addresssize = 32
+WARNING:Xst:647 - Input <ADDRESS<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<33>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<34>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<35>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<36>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<37>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<38>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<39>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<40>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<41>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<42>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<43>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<44>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<45>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<46>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<47>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<48>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<49>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<50>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<51>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<52>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<53>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<54>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<55>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<56>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<57>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<58>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<59>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<60>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<61>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<62>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<63>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+    Found 32-bit register for signal <DATA>.
+WARNING:Xst:737 - Found 1-bit latch for signal <ROM_PROCESS.MEMORY<0><5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+	inferred   1 Latch(s).
+	inferred  64 Multiplexer(s).
+Unit <INSTRMEMORY> synthesized.
+
+Synthesizing Unit <CU>.
+    Related source file is "D:\Xilinix\Projects\SingleBitALU\CU.vhd".
+    Summary:
+	no macro.
+Unit <CU> synthesized.
+
+Synthesizing Unit <mux21VAR_1>.
+    Related source file is "D:\Xilinix\Projects\SingleBitALU\mux21WORD6.vhd".
+        n = 4
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux21VAR_1> synthesized.
+
+Synthesizing Unit <signExt>.
+    Related source file is "D:\Xilinix\Projects\SingleBitALU\signExt.vhd".
+    Summary:
+	no macro.
+Unit <signExt> synthesized.
+
+Synthesizing Unit <RegisterFile>.
+    Related source file is "D:\Xilinix\Projects\SingleBitALU\RegisterFile.vhd".
+    Summary:
+	no macro.
+Unit <RegisterFile> synthesized.
+
+Synthesizing Unit <Decoder>.
+    Related source file is "D:\Xilinix\Projects\SingleBitALU\Decoder.vhd".
+    Found 32x32-bit Read Only RAM for signal <T>
+    Summary:
+	inferred   1 RAM(s).
+Unit <Decoder> synthesized.
+
+Synthesizing Unit <Reg32_0>.
+    Related source file is "D:\Xilinix\Projects\SingleBitALU\Reg32_0.vhd".
+        n = 32
+    Found 32-bit register for signal <temp>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <Reg32_0> synthesized.
+
+Synthesizing Unit <reg>.
+    Related source file is "D:\Xilinix\Projects\SingleBitALU\register.vhd".
+    Found 32-bit register for signal <tmp>.
+    Found 32-bit adder for signal <D[31]_GND_1079_o_add_0_OUT> created at line 49.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  32 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <reg> synthesized.
+
+Synthesizing Unit <Mux>.
+    Related source file is "D:\Xilinix\Projects\SingleBitALU\Mux.vhd".
+        wordSize = 32
+    Found 32-bit 32-to-1 multiplexer for signal <ou> created at line 44.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <Mux> synthesized.
+
+Synthesizing Unit <mux21VAR_2>.
+    Related source file is "D:\Xilinix\Projects\SingleBitALU\mux21WORD6.vhd".
+        n = 31
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux21VAR_2> synthesized.
+
+Synthesizing Unit <ALUControl>.
+    Related source file is "D:\Xilinix\Projects\SingleBitALU\ALUControl.vhd".
+WARNING:Xst:647 - Input <func<5:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <ALUControl> synthesized.
+
+Synthesizing Unit <ALU>.
+    Related source file is "D:\Xilinix\Projects\SingleBitALU\FullALU.vhd".
+    Summary:
+	no macro.
+Unit <ALU> synthesized.
+
+Synthesizing Unit <SingleBitALU>.
+    Related source file is "D:\Xilinix\Projects\SingleBitALU\SingleBitALU.vhd".
+    Summary:
+	no macro.
+Unit <SingleBitALU> synthesized.
+
+Synthesizing Unit <mux21>.
+    Related source file is "D:\Xilinix\Projects\SingleBitALU\mux21.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux21> synthesized.
+
+Synthesizing Unit <FullAdder>.
+    Related source file is "D:\Xilinix\Projects\SingleBitALU\FullAdder.vhd".
+    Found 2-bit adder for signal <n0012> created at line 44.
+    Found 2-bit adder for signal <tmp> created at line 44.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+Unit <FullAdder> synthesized.
+
+Synthesizing Unit <mux41>.
+    Related source file is "D:\Xilinix\Projects\SingleBitALU\mux41.vhd".
+WARNING:Xst:647 - Input <sel<3:2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit 4-to-1 multiplexer for signal <ou_bus0_MUX_109_o> created at line 41.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux41> synthesized.
+
+Synthesizing Unit <MSBALU>.
+    Related source file is "D:\Xilinix\Projects\SingleBitALU\MSBALU.vhd".
+    Summary:
+Unit <MSBALU> synthesized.
+
+Synthesizing Unit <DATAMEMORY>.
+    Related source file is "D:\Xilinix\Projects\SingleBitALU\Datamem.V4.vhd".
+        words = 64
+        wordsize = 32
+        addresssize = 32
+WARNING:Xst:647 - Input <ADDRESS<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 32-bit register for signal <MEMORY<12>>.
+    Found 32-bit register for signal <MEMORY<13>>.
+    Found 32-bit register for signal <MEMORY<14>>.
+    Found 32-bit register for signal <MEMORY<1>>.
+    Found 32-bit register for signal <MEMORY<2>>.
+    Found 32-bit register for signal <MEMORY<3>>.
+    Found 32-bit register for signal <MEMORY<4>>.
+    Found 32-bit register for signal <MEMORY<5>>.
+    Found 32-bit register for signal <MEMORY<6>>.
+    Found 32-bit register for signal <MEMORY<7>>.
+    Found 32-bit register for signal <MEMORY<8>>.
+    Found 32-bit register for signal <MEMORY<9>>.
+    Found 32-bit register for signal <MEMORY<10>>.
+    Found 32-bit register for signal <MEMORY<11>>.
+    Found 32-bit register for signal <MEMORY<15>>.
+    Found 32-bit register for signal <MEMORY<16>>.
+    Found 32-bit register for signal <MEMORY<17>>.
+    Found 32-bit register for signal <MEMORY<18>>.
+    Found 32-bit register for signal <MEMORY<19>>.
+    Found 32-bit register for signal <MEMORY<20>>.
+    Found 32-bit register for signal <MEMORY<21>>.
+    Found 32-bit register for signal <MEMORY<22>>.
+    Found 32-bit register for signal <MEMORY<23>>.
+    Found 32-bit register for signal <MEMORY<24>>.
+    Found 32-bit register for signal <MEMORY<25>>.
+    Found 32-bit register for signal <MEMORY<26>>.
+    Found 32-bit register for signal <MEMORY<27>>.
+    Found 32-bit register for signal <MEMORY<28>>.
+    Found 32-bit register for signal <MEMORY<29>>.
+    Found 32-bit register for signal <MEMORY<30>>.
+    Found 32-bit register for signal <MEMORY<31>>.
+    Found 32-bit register for signal <MEMORY<32>>.
+    Found 32-bit register for signal <MEMORY<33>>.
+    Found 32-bit register for signal <MEMORY<34>>.
+    Found 32-bit register for signal <MEMORY<35>>.
+    Found 32-bit register for signal <MEMORY<36>>.
+    Found 32-bit register for signal <MEMORY<37>>.
+    Found 32-bit register for signal <MEMORY<38>>.
+    Found 32-bit register for signal <MEMORY<39>>.
+    Found 32-bit register for signal <MEMORY<40>>.
+    Found 32-bit register for signal <MEMORY<41>>.
+    Found 32-bit register for signal <MEMORY<42>>.
+    Found 32-bit register for signal <MEMORY<43>>.
+    Found 32-bit register for signal <MEMORY<44>>.
+    Found 32-bit register for signal <MEMORY<45>>.
+    Found 32-bit register for signal <MEMORY<46>>.
+    Found 32-bit register for signal <MEMORY<47>>.
+    Found 32-bit register for signal <MEMORY<48>>.
+    Found 32-bit register for signal <MEMORY<49>>.
+    Found 32-bit register for signal <MEMORY<50>>.
+    Found 32-bit register for signal <MEMORY<51>>.
+    Found 32-bit register for signal <MEMORY<52>>.
+    Found 32-bit register for signal <MEMORY<53>>.
+    Found 32-bit register for signal <MEMORY<54>>.
+    Found 32-bit register for signal <MEMORY<55>>.
+    Found 32-bit register for signal <MEMORY<56>>.
+    Found 32-bit register for signal <MEMORY<57>>.
+    Found 32-bit register for signal <MEMORY<58>>.
+    Found 32-bit register for signal <MEMORY<59>>.
+    Found 32-bit register for signal <MEMORY<60>>.
+    Found 32-bit register for signal <MEMORY<61>>.
+    Found 32-bit register for signal <MEMORY<62>>.
+    Found 32-bit register for signal <MEMORY<63>>.
+    Found 32-bit register for signal <MEMORY<0>>.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<31>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<30>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<29>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<28>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<27>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<26>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<25>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<24>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<23>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<22>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<21>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<20>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<19>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<18>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<17>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<16>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<15>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<14>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<13>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<12>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<11>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<10>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<9>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<8>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<7>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<6>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<5>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<4>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<3>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<2>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<1>> created at line 60.
+    Found 1-bit 64-to-1 multiplexer for signal <ADDR_int[5]_MEMORY[63][31]_wide_mux_246_OUT<0>> created at line 60.
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1058_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <MEM_READ_MEM_READ_DLATCH_1059_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1060_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<31>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1062_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<30>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1064_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<29>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1066_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<28>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1068_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<27>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1070_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<26>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1072_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<25>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1074_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<24>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1076_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<23>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1078_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<22>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1080_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<21>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1082_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<20>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1084_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<19>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1086_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<18>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1088_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<17>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1090_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<16>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1092_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<15>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1094_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<14>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1096_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<13>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1098_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<12>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1100_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<11>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1102_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<10>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1104_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<9>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1106_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<8>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1108_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<7>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1110_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<6>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1112_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<5>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1114_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<4>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1116_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<3>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1118_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<2>> created at line 60
+WARNING:Xst:737 - Found 1-bit latch for signal <OUTS[31]_MEM_READ_DLATCH_1120_q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <OUTS<1>> created at line 60
+    Found 1-bit tristate buffer for signal <OUTS<0>> created at line 60
+    Found 32-bit comparator greater for signal <GND_1183_o_ADDR_int[31]_LessThan_245_o> created at line 60
+    Summary:
+	inferred 2048 D-type flip-flop(s).
+	inferred  33 Latch(s).
+	inferred   1 Comparator(s).
+	inferred  32 Multiplexer(s).
+	inferred  32 Tristate(s).
+Unit <DATAMEMORY> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 32x32-bit single-port Read Only RAM                   : 1
+# Adders/Subtractors                                   : 223
+ 2-bit adder                                           : 192
+ 32-bit adder                                          : 31
+# Registers                                            : 98
+ 32-bit register                                       : 98
+# Latches                                              : 34
+ 1-bit latch                                           : 34
+# Comparators                                          : 1
+ 32-bit comparator greater                             : 1
+# Multiplexers                                         : 422
+ 1-bit 2-to-1 multiplexer                              : 192
+ 1-bit 4-to-1 multiplexer                              : 96
+ 1-bit 64-to-1 multiplexer                             : 32
+ 32-bit 2-to-1 multiplexer                             : 99
+ 32-bit 32-to-1 multiplexer                            : 2
+ 5-bit 2-to-1 multiplexer                              : 1
+# Tristates                                            : 32
+ 1-bit tristate buffer                                 : 32
+# Xors                                                 : 3
+ 1-bit xor2                                            : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst - The specified part-type was not generated at build time. XST is loading the full part-type and will therefore consume more CPU and memory.
+Loading device for application Rf_Device from file '7a100t.nph' in environment D:\Xilinix\14.5\ISE_DS\ISE\.
+Loading device for application Rf_Device from file '7a100t.nph' in environment D:\Xilinix\14.5\ISE_DS\ISE\.
+
+Synthesizing (advanced) Unit <Decoder>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_T> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <i>             |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <T>             |          |
+    -----------------------------------------------------------------------
+Unit <Decoder> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 32x32-bit single-port distributed Read Only RAM       : 1
+# Adders/Subtractors                                   : 127
+ 2-bit adder carry in                                  : 96
+ 32-bit adder                                          : 31
+# Registers                                            : 3136
+ Flip-Flops                                            : 3136
+# Comparators                                          : 1
+ 32-bit comparator greater                             : 1
+# Multiplexers                                         : 422
+ 1-bit 2-to-1 multiplexer                              : 192
+ 1-bit 4-to-1 multiplexer                              : 96
+ 1-bit 64-to-1 multiplexer                             : 32
+ 32-bit 2-to-1 multiplexer                             : 99
+ 32-bit 32-to-1 multiplexer                            : 2
+ 5-bit 2-to-1 multiplexer                              : 1
+# Xors                                                 : 3
+ 1-bit xor2                                            : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <DATA_30> (without init value) has a constant value of 0 in block <INSTRMEMORY>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <DATA_6> in Unit <INSTRMEMORY> is equivalent to the following 4 FFs/Latches, which will be removed : <DATA_7> <DATA_8> <DATA_9> <DATA_10> 
+WARNING:Xst:2042 - Unit MainModule: 32 internal tristates are replaced by logic (pull-up yes): N10, N11, N12, N13, N14, N15, N16, N17, N18, N19, N2, N20, N21, N22, N23, N24, N25, N26, N27, N28, N29, N3, N30, N31, N32, N33, N4, N5, N6, N7, N8, N9.
+
+Optimizing unit <Reg32_0> ...
+
+Optimizing unit <MainModule> ...
+
+Optimizing unit <greg> ...
+
+Optimizing unit <INSTRMEMORY> ...
+
+Optimizing unit <RegisterFile> ...
+
+Optimizing unit <ALU> ...
+WARNING:Xst:1293 - FF/Latch <PC/temp_0> has a constant value of 0 in block <MainModule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <PC/temp_1> has a constant value of 0 in block <MainModule>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block MainModule, actual ratio is 9.
+FlipFlop ins/DATA_16 has been replicated 5 time(s)
+FlipFlop ins/DATA_17 has been replicated 5 time(s)
+FlipFlop ins/DATA_18 has been replicated 1 time(s)
+FlipFlop ins/DATA_19 has been replicated 1 time(s)
+FlipFlop ins/DATA_21 has been replicated 4 time(s)
+FlipFlop ins/DATA_22 has been replicated 4 time(s)
+FlipFlop ins/DATA_23 has been replicated 1 time(s)
+FlipFlop ins/DATA_24 has been replicated 1 time(s)
+FlipFlop ins/DATA_29 has been replicated 1 time(s)
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1058_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1060_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1062_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1064_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1066_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1068_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1070_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1072_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1074_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1076_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1078_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1080_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1082_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1084_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1086_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1088_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1090_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1092_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1094_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1096_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1098_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1100_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1102_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1104_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1106_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1108_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1110_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1112_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1114_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1116_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1118_q has been replicated 1 time(s) to handle iob=true attribute.
+Latch DATA/OUTS[31]_MEM_READ_DLATCH_1120_q has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 3152
+ Flip-Flops                                            : 3152
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : MainModule.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 5924
+#      GND                         : 1
+#      INV                         : 2
+#      LUT2                        : 9
+#      LUT3                        : 25
+#      LUT4                        : 185
+#      LUT5                        : 1099
+#      LUT6                        : 2571
+#      MUXCY                       : 965
+#      MUXF7                       : 74
+#      VCC                         : 1
+#      XORCY                       : 992
+# FlipFlops/Latches                : 3218
+#      FD_1                        : 50
+#      FDCE_1                      : 92
+#      FDE                         : 32
+#      FDE_1                       : 1952
+#      FDPE_1                      : 4
+#      FDRE                        : 1022
+#      LD                          : 65
+#      LDP                         : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 161
+#      IBUF                        : 1
+#      OBUF                        : 128
+#      OBUFT                       : 32
+
+Device utilization summary:
+---------------------------
+
+Selected Device : xa7a100tcsg324-2i 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            3186  out of  126800     2%  
+ Number of Slice LUTs:                 3891  out of  63400     6%  
+    Number used as Logic:              3891  out of  63400     6%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   5380
+   Number with an unused Flip Flop:    2194  out of   5380    40%  
+   Number with an unused LUT:          1489  out of   5380    27%  
+   Number of fully used LUT-FF pairs:  1697  out of   5380    31%  
+   Number of unique control sets:       100
+
+IO Utilization: 
+ Number of IOs:                         162
+ Number of bonded IOBs:                 162  out of    210    77%  
+    IOB Flip Flops/Latches:              32
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRL/BUFHCEs:         2  out of    128     1%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------------------------------------+----------------------------------------------+-------+
+Clock Signal                                                     | Clock buffer(FF name)                        | Load  |
+-----------------------------------------------------------------+----------------------------------------------+-------+
+DATA/MEM_READ_MEM_READ_OR_47_o(DATA/MEM_READ_MEM_READ_OR_47_o1:O)| BUFG(*)(DATA/OUTS[31]_MEM_READ_DLATCH_1120_q)| 65    |
+CLK                                                              | BUFGP                                        | 3152  |
+ALUAdd2/ALU1/FA/Madd_tmp_Madd_lut<0>                             | NONE(ins/ROM_PROCESS.MEMORY<0>_5)            | 1     |
+-----------------------------------------------------------------+----------------------------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 15.276ns (Maximum Frequency: 65.462MHz)
+   Minimum input arrival time before clock: 2.404ns
+   Maximum output required time after clock: 6.276ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 15.276ns (frequency: 65.462MHz)
+  Total number of paths / destination ports: 113392469 / 6224
+-------------------------------------------------------------------------
+Delay:               7.638ns (Levels of Logic = 42)
+  Source:            ins/DATA_21_1 (FF)
+  Destination:       REGF/reg1/tmp_31 (FF)
+  Source Clock:      CLK falling
+  Destination Clock: CLK rising
+
+  Data Path: ins/DATA_21_1 to REGF/reg1/tmp_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             4   0.364   0.456  ins/DATA_21_1 (ins/DATA_21_1)
+     LUT6:I4->O            1   0.097   0.616  REGF/mux0/Mmux_ou_858 (REGF/mux0/Mmux_ou_858)
+     LUT6:I2->O            1   0.097   0.000  REGF/mux0/Mmux_ou_319 (REGF/mux0/Mmux_ou_319)
+     MUXF7:I1->O           3   0.279   0.367  REGF/mux0/Mmux_ou_2_f7_18 (RegFileOut1_27_OBUF)
+     LUT4:I3->O            5   0.097   0.766  ALUR/ALU28/Ainv/Mmux_ou11 (ALUR/ALU28/NA)
+     LUT6:I1->O            5   0.097   0.462  ALUR/ALU27/FA/Madd_tmp_Madd_cy<0>11_SW0 (N74)
+     LUT6:I4->O            2   0.097   0.444  ALUR/ALU29/FA/Madd_tmp_Madd_cy<0>11_SW1 (N101)
+     LUT5:I3->O            1   0.097   0.743  ALUR/ALU25/FA/Madd_tmp_Madd_cy<0>11_SW1 (N160)
+     LUT6:I1->O           65   0.097   0.491  ALUR/ALU1/MX41/Mmux_ou_bus0_MUX_109_o13 (ALUOut_0_OBUF)
+     LUT5:I4->O            1   0.097   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_lut<0> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_lut<0>)
+     MUXCY:S->O            1   0.353   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<0> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<1> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<2> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<3> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<4> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<5> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<6> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<7> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<8> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<9> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<10> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<11> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<12> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<12>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<13> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<13>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<14> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<14>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<15> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<15>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<16> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<16>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<17> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<17>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<18> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<18>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<19> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<19>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<20> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<20>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<21> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<21>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<22> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<22>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<23> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<23>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<24> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<24>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<25> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<25>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<26> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<26>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<27> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<27>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<28> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<28>)
+     MUXCY:CI->O           1   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<29> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<29>)
+     MUXCY:CI->O           0   0.023   0.000  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<30> (REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_cy<30>)
+     XORCY:CI->O           1   0.370   0.355  REGF/reg1/Madd_D[31]_GND_1079_o_add_0_OUT_xor<31> (REGF/reg1/D[31]_GND_1079_o_add_0_OUT<31>)
+     LUT6:I5->O            1   0.097   0.000  REGF/reg1/Mmux_tmp[31]_D[31]_mux_3_OUT251 (REGF/reg1/tmp[31]_D[31]_mux_3_OUT<31>)
+     FDRE:D                    0.008          REGF/reg1/tmp_31
+    ----------------------------------------
+    Total                      7.638ns (2.937ns logic, 4.701ns route)
+                                       (38.5% logic, 61.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 1877 / 1774
+-------------------------------------------------------------------------
+Offset:              2.404ns (Levels of Logic = 5)
+  Source:            START (PAD)
+  Destination:       ins/DATA_20 (FF)
+  Destination Clock: CLK falling
+
+  Data Path: START to ins/DATA_20
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            50   0.001   0.749  START_IBUF (START_IBUF)
+     LUT5:I1->O            5   0.097   0.462  ins/ADDRover4[5]_ROM_PROCESS.MEMORY[63][31]_wide_mux_33_OUT<14>11 (ins/ADDRover4[5]_ROM_PROCESS.MEMORY[63][31]_wide_mux_33_OUT<14>_bdd0)
+     LUT3:I1->O            1   0.097   0.616  ins/ADDRover4[5]_ROM_PROCESS.MEMORY[63][31]_wide_mux_33_OUT<20>1 (ins/ADDRover4[5]_ROM_PROCESS.MEMORY[63][31]_wide_mux_33_OUT<20>1)
+     LUT5:I1->O            1   0.097   0.000  ins/ADDRover4[5]_ROM_PROCESS.MEMORY[63][31]_wide_mux_33_OUT<20>4_F (N273)
+     MUXF7:I0->O           1   0.277   0.000  ins/ADDRover4[5]_ROM_PROCESS.MEMORY[63][31]_wide_mux_33_OUT<20>4 (ins/ADDRover4[5]_ROM_PROCESS.MEMORY[63][31]_wide_mux_33_OUT<20>)
+     FD_1:D                    0.008          ins/DATA_20
+    ----------------------------------------
+    Total                      2.404ns (0.577ns logic, 1.827ns route)
+                                       (24.0% logic, 76.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'ALUAdd2/ALU1/FA/Madd_tmp_Madd_lut<0>'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.422ns (Levels of Logic = 2)
+  Source:            START (PAD)
+  Destination:       ins/ROM_PROCESS.MEMORY<0>_5 (LATCH)
+  Destination Clock: ALUAdd2/ALU1/FA/Madd_tmp_Madd_lut<0> falling
+
+  Data Path: START to ins/ROM_PROCESS.MEMORY<0>_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            50   0.001   0.472  START_IBUF (START_IBUF)
+     INV:I->O            127   0.113   0.486  notStart1_INV_0 (notStart)
+     LDP:PRE                   0.349          ins/ROM_PROCESS.MEMORY<0>_5
+    ----------------------------------------
+    Total                      1.422ns (0.463ns logic, 0.959ns route)
+                                       (32.6% logic, 67.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 229097 / 126
+-------------------------------------------------------------------------
+Offset:              6.276ns (Levels of Logic = 10)
+  Source:            REGF/reg24/tmp_3 (FF)
+  Destination:       ALUOut<27> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: REGF/reg24/tmp_3 to ALUOut<27>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.361   0.758  REGF/reg24/tmp_3 (REGF/reg24/tmp_3)
+     LUT6:I0->O            1   0.097   0.616  REGF/mux0/Mmux_ou_876 (REGF/mux0/Mmux_ou_876)
+     LUT6:I2->O            1   0.097   0.000  REGF/mux0/Mmux_ou_325 (REGF/mux0/Mmux_ou_325)
+     MUXF7:I1->O           3   0.279   0.367  REGF/mux0/Mmux_ou_2_f7_24 (RegFileOut1_3_OBUF)
+     LUT4:I3->O            7   0.097   0.777  ALUR/ALU4/Ainv/Mmux_ou11 (ALUR/ALU4/NA)
+     LUT6:I1->O            1   0.097   0.439  ALUR/ALU4/FA/Madd_tmp_Madd_cy<0>11_SW1 (N93)
+     LUT6:I4->O           10   0.097   0.405  ALUR/ALU6/FA/Madd_tmp_Madd_cy<0>11 (ALUR/CO<5>)
+     LUT6:I5->O           12   0.097   0.632  ALUR/ALU9/FA/Madd_tmp_Madd_cy<0>11 (ALUR/CO<8>)
+     LUT5:I2->O            7   0.097   0.389  ALUR/ALU25/FA/Madd_tmp_Madd_cy<0>11 (ALUR/CO<24>)
+     LUT6:I5->O           68   0.097   0.476  ALUR/ALU26/MX41/Mmux_ou_bus0_MUX_109_o11 (ALUOut_25_OBUF)
+     OBUF:I->O                 0.000          ALUOut_25_OBUF (ALUOut<25>)
+    ----------------------------------------
+    Total                      6.276ns (1.416ns logic, 4.860ns route)
+                                       (22.6% logic, 77.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'DATA/MEM_READ_MEM_READ_OR_47_o'
+  Total number of paths / destination ports: 64 / 32
+-------------------------------------------------------------------------
+Offset:              1.666ns (Levels of Logic = 2)
+  Source:            DATA/MEM_READ_MEM_READ_DLATCH_1059_q (LATCH)
+  Destination:       DataMemOut<31> (PAD)
+  Source Clock:      DATA/MEM_READ_MEM_READ_OR_47_o falling
+
+  Data Path: DATA/MEM_READ_MEM_READ_DLATCH_1059_q to DataMemOut<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q            2017   0.472   0.612  DATA/MEM_READ_MEM_READ_DLATCH_1059_q (DATA/MEM_READ_MEM_READ_DLATCH_1059_q)
+     INV:I->O             32   0.113   0.469  DATA/MEM_READ_MEM_READ_DLATCH_1059_q_inv1_INV_0 (DATA/MEM_READ_MEM_READ_DLATCH_1059_q_inv)
+     OBUFT:T->O                0.000          DataMemOut_31_OBUFT (DataMemOut<31>)
+    ----------------------------------------
+    Total                      1.666ns (0.585ns logic, 1.081ns route)
+                                       (35.1% logic, 64.9% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+------------------------------------+---------+---------+---------+---------+
+                                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------------------------+---------+---------+---------+---------+
+ALUAdd2/ALU1/FA/Madd_tmp_Madd_lut<0>|         |         |    2.937|         |
+CLK                                 |    7.937|    7.638|    6.363|         |
+DATA/MEM_READ_MEM_READ_OR_47_o      |         |    3.459|         |         |
+------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock DATA/MEM_READ_MEM_READ_OR_47_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |         |         |    8.338|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 63.00 secs
+Total CPU time to Xst completion: 63.72 secs
+ 
+--> 
+
+Total memory usage is 876768 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   81 (   0 filtered)
+Number of infos    :   11 (   0 filtered)
+

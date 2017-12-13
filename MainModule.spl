@@ -1,0 +1,10 @@
+[Inputs]
+START
+CLK
+[Outputs]
+=RegFileOut1[31:0]=
+=RegFileOut2[31:0]=
+=ALUOut[31:0]=
+=PCOut[31:0]=
+=DataMemOut[31:0]=
+[BiDir]

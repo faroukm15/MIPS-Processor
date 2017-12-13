@@ -1,0 +1,7 @@
+vhdl work "mypackage.vhd"
+vhdl work "mux41.vhd"
+vhdl work "mux21.vhd"
+vhdl work "FullAdder.vhd"
+vhdl work "SingleBitALU.vhd"
+vhdl work "MSBALU.vhd"
+vhdl work "FullALU.vhd"

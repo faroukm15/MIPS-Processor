@@ -1,0 +1,7 @@
+vhdl isim_temp "mypackage.vhd"
+vhdl isim_temp "mux41.vhd"
+vhdl isim_temp "FullAdder.vhd"
+vhdl isim_temp "SingleBitALU.vhd"
+vhdl isim_temp "mux21.vhd"
+vhdl isim_temp "FullALU.vhd"
+vhdl isim_temp "C:/Users/farouk/Downloads/Compressed/Milestone1/Milestone1/TestCases/ALUTest.vhd"

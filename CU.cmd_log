@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/CU.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/CU.syr" 

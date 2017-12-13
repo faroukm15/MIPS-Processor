@@ -1,0 +1,669 @@
+--------------------------------------------------------------------------------
+Release 14.5 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinix\14.5\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2I
+-n 3 -fastpaths -xml FullALU.twx FullALU.ncd -o FullALU.twr FullALU.pcf
+
+Design file:              FullALU.ncd
+Physical constraint file: FullALU.pcf
+Device,package,speed:     xa7a100t,csg324,I,-2I (PRELIMINARY 1.05 2013-03-26)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock aluop<0>
+------------+------------+------------+------------+------------+-----------------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                                   | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)                  | Phase  |
+------------+------------+------------+------------+------------+-----------------------------------+--------+
+cin         |   14.747(F)|      SLOW  |    4.153(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<0>    |   13.732(F)|      SLOW  |    4.816(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<1>    |   13.442(F)|      SLOW  |    4.802(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<2>    |   13.301(F)|      SLOW  |    4.623(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<3>    |   12.529(F)|      SLOW  |    4.763(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<4>    |   12.418(F)|      SLOW  |    4.600(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<5>    |   11.691(F)|      SLOW  |    4.990(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<6>    |   11.797(F)|      SLOW  |    4.924(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<7>    |   11.176(F)|      SLOW  |    4.557(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<8>    |   11.143(F)|      SLOW  |    4.808(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<9>    |    9.949(F)|      SLOW  |    4.787(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<10>   |    9.980(F)|      SLOW  |    4.872(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<11>   |    9.287(F)|      SLOW  |    4.533(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<12>   |    8.845(F)|      SLOW  |    5.065(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<13>   |    8.481(F)|      SLOW  |    4.340(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<14>   |    7.954(F)|      SLOW  |    4.571(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<15>   |    7.173(F)|      SLOW  |    5.163(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<16>   |    7.090(F)|      SLOW  |    5.048(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<17>   |    4.743(F)|      SLOW  |    4.883(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<18>   |    5.352(F)|      SLOW  |    5.303(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<19>   |    4.486(F)|      SLOW  |    4.585(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<20>   |    3.685(F)|      SLOW  |    5.415(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<21>   |    3.689(F)|      SLOW  |    4.296(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<22>   |    3.116(F)|      SLOW  |    5.311(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<23>   |    2.247(F)|      SLOW  |    5.271(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<24>   |    1.924(F)|      SLOW  |    5.375(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<25>   |    0.488(F)|      FAST  |    5.594(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<26>   |    0.656(F)|      SLOW  |    5.297(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<27>   |    1.139(F)|      SLOW  |    4.516(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<28>   |    0.316(F)|      FAST  |    5.476(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<29>   |   -0.373(F)|      FAST  |    5.122(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<30>   |   -0.429(F)|      FAST  |    5.034(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<31>   |   -0.976(F)|      FAST  |    5.385(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<0>    |   14.404(F)|      SLOW  |    4.878(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<1>    |   12.764(F)|      SLOW  |    4.890(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<2>    |   12.936(F)|      SLOW  |    4.874(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<3>    |   12.326(F)|      SLOW  |    4.782(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<4>    |   12.434(F)|      SLOW  |    4.896(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<5>    |   11.322(F)|      SLOW  |    4.745(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<6>    |   11.407(F)|      SLOW  |    5.016(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<7>    |   10.591(F)|      SLOW  |    4.898(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<8>    |   10.771(F)|      SLOW  |    4.890(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<9>    |    9.683(F)|      SLOW  |    4.985(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<10>   |    9.687(F)|      SLOW  |    4.999(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<11>   |    9.267(F)|      SLOW  |    4.272(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<12>   |    8.976(F)|      SLOW  |    5.012(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<13>   |    7.789(F)|      SLOW  |    5.039(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<14>   |    7.866(F)|      SLOW  |    5.051(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<15>   |    7.291(F)|      SLOW  |    4.773(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<16>   |    7.387(F)|      SLOW  |    4.782(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<17>   |    5.136(F)|      SLOW  |    4.327(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<18>   |    5.376(F)|      SLOW  |    4.719(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<19>   |    4.296(F)|      SLOW  |    5.102(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<20>   |    4.213(F)|      SLOW  |    4.796(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<21>   |    3.520(F)|      SLOW  |    4.885(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<22>   |    3.833(F)|      SLOW  |    4.539(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<23>   |    2.834(F)|      SLOW  |    4.704(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<24>   |    2.166(F)|      SLOW  |    5.024(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<25>   |    1.161(F)|      SLOW  |    5.158(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<26>   |    1.226(F)|      SLOW  |    5.018(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<27>   |    0.411(F)|      FAST  |    4.997(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<28>   |    0.418(F)|      FAST  |    4.874(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<29>   |   -0.253(F)|      FAST  |    5.074(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<30>   |   -0.332(F)|      FAST  |    5.152(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<31>   |   -0.831(F)|      FAST  |    5.163(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+------------+------------+------------+------------+------------+-----------------------------------+--------+
+
+Setup/Hold to clock aluop<1>
+------------+------------+------------+------------+------------+-----------------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                                   | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)                  | Phase  |
+------------+------------+------------+------------+------------+-----------------------------------+--------+
+cin         |   14.944(F)|      SLOW  |    3.891(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<0>    |   13.929(F)|      SLOW  |    4.554(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<1>    |   13.639(F)|      SLOW  |    4.540(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<2>    |   13.498(F)|      SLOW  |    4.361(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<3>    |   12.726(F)|      SLOW  |    4.501(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<4>    |   12.615(F)|      SLOW  |    4.338(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<5>    |   11.888(F)|      SLOW  |    4.728(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<6>    |   11.994(F)|      SLOW  |    4.662(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<7>    |   11.373(F)|      SLOW  |    4.295(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<8>    |   11.340(F)|      SLOW  |    4.546(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<9>    |   10.146(F)|      SLOW  |    4.525(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<10>   |   10.177(F)|      SLOW  |    4.610(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<11>   |    9.484(F)|      SLOW  |    4.271(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<12>   |    9.042(F)|      SLOW  |    4.803(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<13>   |    8.678(F)|      SLOW  |    4.078(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<14>   |    8.151(F)|      SLOW  |    4.309(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<15>   |    7.370(F)|      SLOW  |    4.901(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<16>   |    7.287(F)|      SLOW  |    4.786(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<17>   |    4.940(F)|      SLOW  |    4.621(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<18>   |    5.549(F)|      SLOW  |    5.041(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<19>   |    4.683(F)|      SLOW  |    4.323(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<20>   |    3.882(F)|      SLOW  |    5.153(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<21>   |    3.886(F)|      SLOW  |    4.034(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<22>   |    3.313(F)|      SLOW  |    5.049(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<23>   |    2.444(F)|      SLOW  |    5.009(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<24>   |    2.121(F)|      SLOW  |    5.113(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<25>   |    0.587(F)|      FAST  |    5.332(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<26>   |    0.853(F)|      SLOW  |    5.035(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<27>   |    1.336(F)|      SLOW  |    4.254(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<28>   |    0.415(F)|      FAST  |    5.214(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<29>   |   -0.274(F)|      FAST  |    4.860(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<30>   |   -0.330(F)|      FAST  |    4.772(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<31>   |   -0.877(F)|      FAST  |    5.123(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<0>    |   14.601(F)|      SLOW  |    4.616(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<1>    |   12.961(F)|      SLOW  |    4.628(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<2>    |   13.133(F)|      SLOW  |    4.612(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<3>    |   12.523(F)|      SLOW  |    4.520(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<4>    |   12.631(F)|      SLOW  |    4.634(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<5>    |   11.519(F)|      SLOW  |    4.483(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<6>    |   11.604(F)|      SLOW  |    4.754(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<7>    |   10.788(F)|      SLOW  |    4.636(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<8>    |   10.968(F)|      SLOW  |    4.628(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<9>    |    9.880(F)|      SLOW  |    4.723(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<10>   |    9.884(F)|      SLOW  |    4.737(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<11>   |    9.464(F)|      SLOW  |    4.010(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<12>   |    9.173(F)|      SLOW  |    4.750(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<13>   |    7.986(F)|      SLOW  |    4.777(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<14>   |    8.063(F)|      SLOW  |    4.789(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<15>   |    7.488(F)|      SLOW  |    4.511(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<16>   |    7.584(F)|      SLOW  |    4.520(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<17>   |    5.333(F)|      SLOW  |    4.065(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<18>   |    5.573(F)|      SLOW  |    4.457(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<19>   |    4.493(F)|      SLOW  |    4.840(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<20>   |    4.410(F)|      SLOW  |    4.534(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<21>   |    3.717(F)|      SLOW  |    4.623(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<22>   |    4.030(F)|      SLOW  |    4.277(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<23>   |    3.031(F)|      SLOW  |    4.442(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<24>   |    2.363(F)|      SLOW  |    4.762(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<25>   |    1.358(F)|      SLOW  |    4.896(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<26>   |    1.423(F)|      SLOW  |    4.756(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<27>   |    0.510(F)|      FAST  |    4.735(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<28>   |    0.517(F)|      FAST  |    4.612(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<29>   |   -0.154(F)|      FAST  |    4.812(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<30>   |   -0.233(F)|      FAST  |    4.890(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<31>   |   -0.732(F)|      FAST  |    4.901(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+------------+------------+------------+------------+------------+-----------------------------------+--------+
+
+Setup/Hold to clock aluop<2>
+------------+------------+------------+------------+------------+-----------------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                                   | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)                  | Phase  |
+------------+------------+------------+------------+------------+-----------------------------------+--------+
+cin         |   15.039(F)|      SLOW  |    3.798(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<0>    |   14.024(F)|      SLOW  |    4.461(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<1>    |   13.734(F)|      SLOW  |    4.447(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<2>    |   13.593(F)|      SLOW  |    4.268(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<3>    |   12.821(F)|      SLOW  |    4.408(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<4>    |   12.710(F)|      SLOW  |    4.245(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<5>    |   11.983(F)|      SLOW  |    4.635(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<6>    |   12.089(F)|      SLOW  |    4.569(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<7>    |   11.468(F)|      SLOW  |    4.202(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<8>    |   11.435(F)|      SLOW  |    4.453(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<9>    |   10.241(F)|      SLOW  |    4.432(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<10>   |   10.272(F)|      SLOW  |    4.517(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<11>   |    9.579(F)|      SLOW  |    4.178(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<12>   |    9.137(F)|      SLOW  |    4.710(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<13>   |    8.773(F)|      SLOW  |    3.985(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<14>   |    8.246(F)|      SLOW  |    4.216(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<15>   |    7.465(F)|      SLOW  |    4.808(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<16>   |    7.382(F)|      SLOW  |    4.693(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<17>   |    5.035(F)|      SLOW  |    4.528(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<18>   |    5.644(F)|      SLOW  |    4.948(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<19>   |    4.778(F)|      SLOW  |    4.230(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<20>   |    3.977(F)|      SLOW  |    5.060(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<21>   |    3.981(F)|      SLOW  |    3.941(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<22>   |    3.408(F)|      SLOW  |    4.956(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<23>   |    2.539(F)|      SLOW  |    4.916(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<24>   |    2.216(F)|      SLOW  |    5.020(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<25>   |    0.654(F)|      SLOW  |    5.239(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<26>   |    0.948(F)|      SLOW  |    4.942(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<27>   |    1.431(F)|      SLOW  |    4.161(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<28>   |    0.466(F)|      FAST  |    5.121(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<29>   |   -0.223(F)|      FAST  |    4.767(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<30>   |   -0.279(F)|      FAST  |    4.679(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<31>   |   -0.826(F)|      FAST  |    5.030(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<0>    |   14.696(F)|      SLOW  |    4.523(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<1>    |   13.056(F)|      SLOW  |    4.535(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<2>    |   13.228(F)|      SLOW  |    4.519(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<3>    |   12.618(F)|      SLOW  |    4.427(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<4>    |   12.726(F)|      SLOW  |    4.541(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<5>    |   11.614(F)|      SLOW  |    4.390(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<6>    |   11.699(F)|      SLOW  |    4.661(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<7>    |   10.883(F)|      SLOW  |    4.543(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<8>    |   11.063(F)|      SLOW  |    4.535(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<9>    |    9.975(F)|      SLOW  |    4.630(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<10>   |    9.979(F)|      SLOW  |    4.644(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<11>   |    9.559(F)|      SLOW  |    3.917(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<12>   |    9.268(F)|      SLOW  |    4.657(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<13>   |    8.081(F)|      SLOW  |    4.684(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<14>   |    8.158(F)|      SLOW  |    4.696(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<15>   |    7.583(F)|      SLOW  |    4.418(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<16>   |    7.679(F)|      SLOW  |    4.427(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<17>   |    5.428(F)|      SLOW  |    3.972(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<18>   |    5.668(F)|      SLOW  |    4.364(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<19>   |    4.588(F)|      SLOW  |    4.747(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<20>   |    4.505(F)|      SLOW  |    4.441(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<21>   |    3.812(F)|      SLOW  |    4.530(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<22>   |    4.125(F)|      SLOW  |    4.184(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<23>   |    3.126(F)|      SLOW  |    4.349(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<24>   |    2.458(F)|      SLOW  |    4.669(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<25>   |    1.453(F)|      SLOW  |    4.803(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<26>   |    1.518(F)|      SLOW  |    4.663(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<27>   |    0.561(F)|      FAST  |    4.642(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<28>   |    0.568(F)|      FAST  |    4.519(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<29>   |   -0.103(F)|      FAST  |    4.719(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<30>   |   -0.182(F)|      FAST  |    4.797(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<31>   |   -0.681(F)|      FAST  |    4.808(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+------------+------------+------------+------------+------------+-----------------------------------+--------+
+
+Setup/Hold to clock aluop<3>
+------------+------------+------------+------------+------------+-----------------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                                   | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)                  | Phase  |
+------------+------------+------------+------------+------------+-----------------------------------+--------+
+cin         |   14.969(F)|      SLOW  |    3.889(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<0>    |   13.954(F)|      SLOW  |    4.552(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<1>    |   13.664(F)|      SLOW  |    4.538(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<2>    |   13.523(F)|      SLOW  |    4.359(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<3>    |   12.751(F)|      SLOW  |    4.499(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<4>    |   12.640(F)|      SLOW  |    4.336(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<5>    |   11.913(F)|      SLOW  |    4.726(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<6>    |   12.019(F)|      SLOW  |    4.660(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<7>    |   11.398(F)|      SLOW  |    4.293(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<8>    |   11.365(F)|      SLOW  |    4.544(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<9>    |   10.171(F)|      SLOW  |    4.523(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<10>   |   10.202(F)|      SLOW  |    4.608(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<11>   |    9.509(F)|      SLOW  |    4.269(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<12>   |    9.067(F)|      SLOW  |    4.801(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<13>   |    8.703(F)|      SLOW  |    4.076(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<14>   |    8.176(F)|      SLOW  |    4.307(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<15>   |    7.395(F)|      SLOW  |    4.899(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<16>   |    7.312(F)|      SLOW  |    4.784(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<17>   |    4.965(F)|      SLOW  |    4.619(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<18>   |    5.574(F)|      SLOW  |    5.039(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<19>   |    4.708(F)|      SLOW  |    4.321(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<20>   |    3.907(F)|      SLOW  |    5.151(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<21>   |    3.911(F)|      SLOW  |    4.032(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<22>   |    3.338(F)|      SLOW  |    5.047(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<23>   |    2.469(F)|      SLOW  |    5.007(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<24>   |    2.146(F)|      SLOW  |    5.111(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<25>   |    0.615(F)|      FAST  |    5.330(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<26>   |    0.878(F)|      SLOW  |    5.033(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<27>   |    1.361(F)|      SLOW  |    4.252(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<28>   |    0.443(F)|      FAST  |    5.212(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<29>   |   -0.246(F)|      FAST  |    4.858(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<30>   |   -0.302(F)|      FAST  |    4.770(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data1<31>   |   -0.849(F)|      FAST  |    5.121(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<0>    |   14.626(F)|      SLOW  |    4.614(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<1>    |   12.986(F)|      SLOW  |    4.626(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<2>    |   13.158(F)|      SLOW  |    4.610(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<3>    |   12.548(F)|      SLOW  |    4.518(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<4>    |   12.656(F)|      SLOW  |    4.632(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<5>    |   11.544(F)|      SLOW  |    4.481(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<6>    |   11.629(F)|      SLOW  |    4.752(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<7>    |   10.813(F)|      SLOW  |    4.634(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<8>    |   10.993(F)|      SLOW  |    4.626(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<9>    |    9.905(F)|      SLOW  |    4.721(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<10>   |    9.909(F)|      SLOW  |    4.735(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<11>   |    9.489(F)|      SLOW  |    4.008(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<12>   |    9.198(F)|      SLOW  |    4.748(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<13>   |    8.011(F)|      SLOW  |    4.775(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<14>   |    8.088(F)|      SLOW  |    4.787(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<15>   |    7.513(F)|      SLOW  |    4.509(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<16>   |    7.609(F)|      SLOW  |    4.518(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<17>   |    5.358(F)|      SLOW  |    4.063(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<18>   |    5.598(F)|      SLOW  |    4.455(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<19>   |    4.518(F)|      SLOW  |    4.838(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<20>   |    4.435(F)|      SLOW  |    4.532(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<21>   |    3.742(F)|      SLOW  |    4.621(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<22>   |    4.055(F)|      SLOW  |    4.275(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<23>   |    3.056(F)|      SLOW  |    4.440(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<24>   |    2.388(F)|      SLOW  |    4.760(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<25>   |    1.383(F)|      SLOW  |    4.894(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<26>   |    1.448(F)|      SLOW  |    4.754(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<27>   |    0.538(F)|      FAST  |    4.733(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<28>   |    0.545(F)|      FAST  |    4.610(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<29>   |   -0.126(F)|      FAST  |    4.810(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<30>   |   -0.205(F)|      FAST  |    4.888(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+data2<31>   |   -0.704(F)|      FAST  |    4.899(F)|      SLOW  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+------------+------------+------------+------------+------------+-----------------------------------+--------+
+
+Clock aluop<0> to Pad
+------------+-----------------+------------+-----------------+------------+-----------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                   | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                  | Phase  |
+------------+-----------------+------------+-----------------+------------+-----------------------------------+--------+
+dataout<0>  |        10.076(F)|      SLOW  |         4.447(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<1>  |        10.085(F)|      SLOW  |         4.456(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<2>  |        10.060(F)|      SLOW  |         4.432(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<3>  |        10.068(F)|      SLOW  |         4.439(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<4>  |        10.076(F)|      SLOW  |         4.447(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<5>  |        10.077(F)|      SLOW  |         4.447(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<6>  |        10.091(F)|      SLOW  |         4.464(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<7>  |        10.071(F)|      SLOW  |         4.440(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<8>  |        10.072(F)|      SLOW  |         4.441(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<9>  |        10.053(F)|      SLOW  |         4.422(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<10> |        10.052(F)|      SLOW  |         4.420(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<11> |        10.045(F)|      SLOW  |         4.414(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<12> |        10.052(F)|      SLOW  |         4.420(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<13> |        10.056(F)|      SLOW  |         4.424(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<14> |        10.054(F)|      SLOW  |         4.421(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<15> |        10.060(F)|      SLOW  |         4.428(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<16> |        10.068(F)|      SLOW  |         4.437(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<17> |        10.049(F)|      SLOW  |         4.418(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<18> |        10.062(F)|      SLOW  |         4.435(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<19> |        10.070(F)|      SLOW  |         4.442(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<20> |        10.074(F)|      SLOW  |         4.446(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<21> |        10.092(F)|      SLOW  |         4.464(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<22> |        10.084(F)|      SLOW  |         4.455(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<23> |        10.095(F)|      SLOW  |         4.467(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<24> |        10.096(F)|      SLOW  |         4.468(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<25> |        10.081(F)|      SLOW  |         4.453(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<26> |        10.097(F)|      SLOW  |         4.469(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<27> |        10.073(F)|      SLOW  |         4.448(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<28> |        10.073(F)|      SLOW  |         4.445(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<29> |        10.079(F)|      SLOW  |         4.453(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<30> |        10.072(F)|      SLOW  |         4.446(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<31> |        10.093(F)|      SLOW  |         4.469(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+zflag       |        15.905(F)|      SLOW  |         6.072(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+------------+-----------------+------------+-----------------+------------+-----------------------------------+--------+
+
+Clock aluop<1> to Pad
+------------+-----------------+------------+-----------------+------------+-----------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                   | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                  | Phase  |
+------------+-----------------+------------+-----------------+------------+-----------------------------------+--------+
+dataout<0>  |         9.814(F)|      SLOW  |         4.348(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<1>  |         9.823(F)|      SLOW  |         4.357(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<2>  |         9.798(F)|      SLOW  |         4.333(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<3>  |         9.806(F)|      SLOW  |         4.340(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<4>  |         9.814(F)|      SLOW  |         4.348(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<5>  |         9.815(F)|      SLOW  |         4.348(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<6>  |         9.829(F)|      SLOW  |         4.365(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<7>  |         9.809(F)|      SLOW  |         4.341(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<8>  |         9.810(F)|      SLOW  |         4.342(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<9>  |         9.791(F)|      SLOW  |         4.323(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<10> |         9.790(F)|      SLOW  |         4.321(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<11> |         9.783(F)|      SLOW  |         4.315(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<12> |         9.790(F)|      SLOW  |         4.321(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<13> |         9.794(F)|      SLOW  |         4.325(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<14> |         9.792(F)|      SLOW  |         4.322(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<15> |         9.798(F)|      SLOW  |         4.329(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<16> |         9.806(F)|      SLOW  |         4.338(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<17> |         9.787(F)|      SLOW  |         4.319(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<18> |         9.800(F)|      SLOW  |         4.336(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<19> |         9.808(F)|      SLOW  |         4.343(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<20> |         9.812(F)|      SLOW  |         4.347(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<21> |         9.830(F)|      SLOW  |         4.365(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<22> |         9.822(F)|      SLOW  |         4.356(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<23> |         9.833(F)|      SLOW  |         4.368(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<24> |         9.834(F)|      SLOW  |         4.369(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<25> |         9.819(F)|      SLOW  |         4.354(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<26> |         9.835(F)|      SLOW  |         4.370(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<27> |         9.811(F)|      SLOW  |         4.349(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<28> |         9.811(F)|      SLOW  |         4.346(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<29> |         9.817(F)|      SLOW  |         4.354(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<30> |         9.810(F)|      SLOW  |         4.347(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<31> |         9.831(F)|      SLOW  |         4.370(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+zflag       |        15.643(F)|      SLOW  |         5.973(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+------------+-----------------+------------+-----------------+------------+-----------------------------------+--------+
+
+Clock aluop<2> to Pad
+------------+-----------------+------------+-----------------+------------+-----------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                   | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                  | Phase  |
+------------+-----------------+------------+-----------------+------------+-----------------------------------+--------+
+dataout<0>  |         9.721(F)|      SLOW  |         4.297(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<1>  |         9.730(F)|      SLOW  |         4.306(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<2>  |         9.705(F)|      SLOW  |         4.282(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<3>  |         9.713(F)|      SLOW  |         4.289(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<4>  |         9.721(F)|      SLOW  |         4.297(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<5>  |         9.722(F)|      SLOW  |         4.297(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<6>  |         9.736(F)|      SLOW  |         4.314(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<7>  |         9.716(F)|      SLOW  |         4.290(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<8>  |         9.717(F)|      SLOW  |         4.291(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<9>  |         9.698(F)|      SLOW  |         4.272(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<10> |         9.697(F)|      SLOW  |         4.270(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<11> |         9.690(F)|      SLOW  |         4.264(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<12> |         9.697(F)|      SLOW  |         4.270(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<13> |         9.701(F)|      SLOW  |         4.274(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<14> |         9.699(F)|      SLOW  |         4.271(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<15> |         9.705(F)|      SLOW  |         4.278(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<16> |         9.713(F)|      SLOW  |         4.287(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<17> |         9.694(F)|      SLOW  |         4.268(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<18> |         9.707(F)|      SLOW  |         4.285(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<19> |         9.715(F)|      SLOW  |         4.292(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<20> |         9.719(F)|      SLOW  |         4.296(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<21> |         9.737(F)|      SLOW  |         4.314(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<22> |         9.729(F)|      SLOW  |         4.305(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<23> |         9.740(F)|      SLOW  |         4.317(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<24> |         9.741(F)|      SLOW  |         4.318(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<25> |         9.726(F)|      SLOW  |         4.303(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<26> |         9.742(F)|      SLOW  |         4.319(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<27> |         9.718(F)|      SLOW  |         4.298(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<28> |         9.718(F)|      SLOW  |         4.295(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<29> |         9.724(F)|      SLOW  |         4.303(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<30> |         9.717(F)|      SLOW  |         4.296(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<31> |         9.738(F)|      SLOW  |         4.319(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+zflag       |        15.550(F)|      SLOW  |         5.922(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+------------+-----------------+------------+-----------------+------------+-----------------------------------+--------+
+
+Clock aluop<3> to Pad
+------------+-----------------+------------+-----------------+------------+-----------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                   | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                  | Phase  |
+------------+-----------------+------------+-----------------+------------+-----------------------------------+--------+
+dataout<0>  |         9.812(F)|      SLOW  |         4.320(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<1>  |         9.821(F)|      SLOW  |         4.329(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<2>  |         9.796(F)|      SLOW  |         4.305(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<3>  |         9.804(F)|      SLOW  |         4.312(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<4>  |         9.812(F)|      SLOW  |         4.320(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<5>  |         9.813(F)|      SLOW  |         4.320(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<6>  |         9.827(F)|      SLOW  |         4.337(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<7>  |         9.807(F)|      SLOW  |         4.313(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<8>  |         9.808(F)|      SLOW  |         4.314(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<9>  |         9.789(F)|      SLOW  |         4.295(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<10> |         9.788(F)|      SLOW  |         4.293(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<11> |         9.781(F)|      SLOW  |         4.287(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<12> |         9.788(F)|      SLOW  |         4.293(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<13> |         9.792(F)|      SLOW  |         4.297(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<14> |         9.790(F)|      SLOW  |         4.294(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<15> |         9.796(F)|      SLOW  |         4.301(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<16> |         9.804(F)|      SLOW  |         4.310(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<17> |         9.785(F)|      SLOW  |         4.291(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<18> |         9.798(F)|      SLOW  |         4.308(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<19> |         9.806(F)|      SLOW  |         4.315(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<20> |         9.810(F)|      SLOW  |         4.319(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<21> |         9.828(F)|      SLOW  |         4.337(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<22> |         9.820(F)|      SLOW  |         4.328(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<23> |         9.831(F)|      SLOW  |         4.340(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<24> |         9.832(F)|      SLOW  |         4.341(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<25> |         9.817(F)|      SLOW  |         4.326(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<26> |         9.833(F)|      SLOW  |         4.342(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<27> |         9.809(F)|      SLOW  |         4.321(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<28> |         9.809(F)|      SLOW  |         4.318(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<29> |         9.815(F)|      SLOW  |         4.326(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<30> |         9.808(F)|      SLOW  |         4.319(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+dataout<31> |         9.829(F)|      SLOW  |         4.342(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+zflag       |        15.641(F)|      SLOW  |         5.945(F)|      FAST  |ALU32/ALUOp[3]_ALUOp[3]_OR_7_o_BUFG|   0.000|
+------------+-----------------+------------+-----------------+------------+-----------------------------------+--------+
+
+Clock to Setup on destination clock aluop<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+aluop<0>       |         |         |    0.894|    0.894|
+aluop<1>       |         |         |    0.967|    0.967|
+aluop<2>       |         |         |    1.957|    1.957|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock aluop<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+aluop<0>       |         |         |    0.993|    0.993|
+aluop<1>       |         |         |    1.151|    1.151|
+aluop<2>       |         |         |    2.154|    2.154|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock aluop<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+aluop<0>       |         |         |    1.044|    1.044|
+aluop<1>       |         |         |    1.246|    1.246|
+aluop<2>       |         |         |    2.249|    2.249|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock aluop<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+aluop<0>       |         |         |    1.021|    1.021|
+aluop<1>       |         |         |    1.176|    1.176|
+aluop<2>       |         |         |    2.179|    2.179|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+cin            |cflag          |   23.694|
+cin            |oflag          |   24.034|
+data1<0>       |cflag          |   22.679|
+data1<0>       |oflag          |   23.019|
+data1<1>       |cflag          |   22.389|
+data1<1>       |oflag          |   22.729|
+data1<2>       |cflag          |   22.248|
+data1<2>       |oflag          |   22.588|
+data1<3>       |cflag          |   21.476|
+data1<3>       |oflag          |   21.816|
+data1<4>       |cflag          |   21.365|
+data1<4>       |oflag          |   21.705|
+data1<5>       |cflag          |   20.638|
+data1<5>       |oflag          |   20.978|
+data1<6>       |cflag          |   20.744|
+data1<6>       |oflag          |   21.084|
+data1<7>       |cflag          |   20.123|
+data1<7>       |oflag          |   20.463|
+data1<8>       |cflag          |   20.090|
+data1<8>       |oflag          |   20.430|
+data1<9>       |cflag          |   18.896|
+data1<9>       |oflag          |   19.236|
+data1<10>      |cflag          |   18.927|
+data1<10>      |oflag          |   19.267|
+data1<11>      |cflag          |   18.234|
+data1<11>      |oflag          |   18.574|
+data1<12>      |cflag          |   17.792|
+data1<12>      |oflag          |   18.132|
+data1<13>      |cflag          |   17.428|
+data1<13>      |oflag          |   17.768|
+data1<14>      |cflag          |   16.901|
+data1<14>      |oflag          |   17.241|
+data1<15>      |cflag          |   16.120|
+data1<15>      |oflag          |   16.460|
+data1<16>      |cflag          |   16.037|
+data1<16>      |oflag          |   16.377|
+data1<17>      |cflag          |   13.690|
+data1<17>      |oflag          |   14.030|
+data1<18>      |cflag          |   14.299|
+data1<18>      |oflag          |   14.639|
+data1<19>      |cflag          |   13.433|
+data1<19>      |oflag          |   13.773|
+data1<20>      |cflag          |   12.632|
+data1<20>      |oflag          |   12.972|
+data1<21>      |cflag          |   12.636|
+data1<21>      |oflag          |   12.976|
+data1<22>      |cflag          |   12.063|
+data1<22>      |oflag          |   12.403|
+data1<23>      |cflag          |   11.194|
+data1<23>      |oflag          |   11.534|
+data1<24>      |cflag          |   10.871|
+data1<24>      |oflag          |   11.211|
+data1<25>      |cflag          |    9.309|
+data1<25>      |oflag          |    9.649|
+data1<26>      |cflag          |    9.603|
+data1<26>      |oflag          |    9.943|
+data1<27>      |cflag          |   10.086|
+data1<27>      |oflag          |   10.426|
+data1<28>      |cflag          |    9.079|
+data1<28>      |oflag          |    9.419|
+data1<29>      |cflag          |    7.797|
+data1<29>      |oflag          |    8.137|
+data1<30>      |cflag          |    7.695|
+data1<30>      |oflag          |    8.035|
+data1<31>      |cflag          |    7.049|
+data1<31>      |oflag          |    7.400|
+data2<0>       |cflag          |   23.351|
+data2<0>       |oflag          |   23.691|
+data2<1>       |cflag          |   21.711|
+data2<1>       |oflag          |   22.051|
+data2<2>       |cflag          |   21.883|
+data2<2>       |oflag          |   22.223|
+data2<3>       |cflag          |   21.273|
+data2<3>       |oflag          |   21.613|
+data2<4>       |cflag          |   21.381|
+data2<4>       |oflag          |   21.721|
+data2<5>       |cflag          |   20.269|
+data2<5>       |oflag          |   20.609|
+data2<6>       |cflag          |   20.354|
+data2<6>       |oflag          |   20.694|
+data2<7>       |cflag          |   19.538|
+data2<7>       |oflag          |   19.878|
+data2<8>       |cflag          |   19.718|
+data2<8>       |oflag          |   20.058|
+data2<9>       |cflag          |   18.630|
+data2<9>       |oflag          |   18.970|
+data2<10>      |cflag          |   18.634|
+data2<10>      |oflag          |   18.974|
+data2<11>      |cflag          |   18.214|
+data2<11>      |oflag          |   18.554|
+data2<12>      |cflag          |   17.923|
+data2<12>      |oflag          |   18.263|
+data2<13>      |cflag          |   16.736|
+data2<13>      |oflag          |   17.076|
+data2<14>      |cflag          |   16.813|
+data2<14>      |oflag          |   17.153|
+data2<15>      |cflag          |   16.238|
+data2<15>      |oflag          |   16.578|
+data2<16>      |cflag          |   16.334|
+data2<16>      |oflag          |   16.674|
+data2<17>      |cflag          |   14.083|
+data2<17>      |oflag          |   14.423|
+data2<18>      |cflag          |   14.323|
+data2<18>      |oflag          |   14.663|
+data2<19>      |cflag          |   13.243|
+data2<19>      |oflag          |   13.583|
+data2<20>      |cflag          |   13.160|
+data2<20>      |oflag          |   13.500|
+data2<21>      |cflag          |   12.467|
+data2<21>      |oflag          |   12.807|
+data2<22>      |cflag          |   12.780|
+data2<22>      |oflag          |   13.120|
+data2<23>      |cflag          |   11.781|
+data2<23>      |oflag          |   12.121|
+data2<24>      |cflag          |   11.113|
+data2<24>      |oflag          |   11.453|
+data2<25>      |cflag          |   10.108|
+data2<25>      |oflag          |   10.448|
+data2<26>      |cflag          |   10.173|
+data2<26>      |oflag          |   10.513|
+data2<27>      |cflag          |    9.211|
+data2<27>      |oflag          |    9.551|
+data2<28>      |cflag          |    9.186|
+data2<28>      |oflag          |    9.526|
+data2<29>      |cflag          |    8.009|
+data2<29>      |oflag          |    8.349|
+data2<30>      |cflag          |    7.793|
+data2<30>      |oflag          |    8.133|
+data2<31>      |cflag          |    7.244|
+data2<31>      |oflag          |    7.601|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Apr 06 00:11:42 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 674 MB
+
+
+

@@ -1,0 +1,4 @@
+vhdl work "mypackage.vhd"
+vhdl work "mux41.vhd"
+vhdl work "FullAdder.vhd"
+vhdl work "SingleBitALU.vhd"

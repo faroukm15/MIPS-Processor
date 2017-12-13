@@ -1,0 +1,4 @@
+vhdl work "mypackage.vhd"
+vhdl work "SingleBitALU.vhd"
+vhdl work "FullALU.vhd"
+vhdl work "C:/Users/farouk/Downloads/Compressed/Milestone1/Milestone1/TestCases/ALUTest.vhd"

@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/SingleBitALU.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/SingleBitALU.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/SingleBitALU.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/SingleBitALU.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/SingleBitALU.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/SingleBitALU.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/SingleBitALU.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/SingleBitALU.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/SingleBitALU.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/SingleBitALU.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/SingleBitALU.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/SingleBitALU.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/SingleBitALU.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/SingleBitALU.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/SingleBitALU.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/SingleBitALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I SingleBitALU.ngc SingleBitALU.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SingleBitALU_map.ncd SingleBitALU.ngd SingleBitALU.pcf 
+par -w -intstyle ise -ol high -mt off SingleBitALU_map.ncd SingleBitALU.ncd SingleBitALU.pcf 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/SingleBitALU.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/SingleBitALU.syr" 
+xst -intstyle ise -ifn "D:/Xilinix/Projects/SingleBitALU/SingleBitALU.xst" -ofn "D:/Xilinix/Projects/SingleBitALU/SingleBitALU.syr" 

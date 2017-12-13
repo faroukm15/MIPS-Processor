@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="SingleBitALU" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALU - Behavioral D:|Xilinix|Projects|SingleBitALU|FullALU.vhd</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU10 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU11 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU12 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU13 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU14 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU15 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU16 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU17 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU18 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU19 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU2 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU20 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU21 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU22 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU23 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU24 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU25 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU26 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU27 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU28 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU29 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU3 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU30 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU31 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU32 - MSBALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU32 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU4 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU5 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU6 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU7 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU8 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU9 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/FullALU - Behavioral D:|Xilinix|Projects|SingleBitALU|FullALU.vhd</ClosedNode>
+         <ClosedNode>/FullALU - Behavioral D:|Xilinix|Projects|SingleBitALU|FullALU.vhd/mypackage</ClosedNode>
+         <ClosedNode>/FullALU - Behavioral D:|Xilinix|Projects|SingleBitALU|FullALU.vhd/ourpackage</ClosedNode>
+         <ClosedNode>/MUL - Behavioral D:|Xilinix|Projects|SingleBitALU|MUL.vhd</ClosedNode>
+         <ClosedNode>/MULTest - behavior D:|Xilinix|Projects|SingleBitALU|MULTest.vhd</ClosedNode>
+         <ClosedNode>/MainModule - Behavioral D:|Xilinix|Projects|SingleBitALU|MainModule.vhd/ALUAdd2 - ALU - Behavioral</ClosedNode>
+         <ClosedNode>/MainModule - Behavioral D:|Xilinix|Projects|SingleBitALU|MainModule.vhd/ALUAddPc - ALU - Behavioral</ClosedNode>
+         <ClosedNode>/MainModule - Behavioral D:|Xilinix|Projects|SingleBitALU|MainModule.vhd/ALUR - ALU - Behavioral</ClosedNode>
+         <ClosedNode>/MainModule - Behavioral D:|Xilinix|Projects|SingleBitALU|MainModule.vhd/REGF - RegisterFile - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral D:|Xilinix|Projects|SingleBitALU|RegisterFile.vhd</ClosedNode>
+         <ClosedNode>/RegisterFileTest - behavior D:|Xilinix|Projects|SingleBitALU|RegisterFileTest.vhd/uut - RegisterFile - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFileTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RegisterFileTest.vhd/uut - RegisterFile - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior D:|Xilinix|Projects|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUAdd2 - ALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior D:|Xilinix|Projects|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUAddPc - ALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior D:|Xilinix|Projects|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior D:|Xilinix|Projects|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/MULM - MUL - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior D:|Xilinix|Projects|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/REGF - RegisterFile - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior D:|Xilinix|Projects|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/REGF - RegisterFileT - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU10 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU11 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU12 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU13 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU14 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU15 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU16 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU17 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU18 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU19 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU2 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU20 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU21 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU22 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU23 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU24 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU25 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU26 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU27 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU28 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU29 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU3 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU30 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU31 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU32 - MSBALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU4 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU5 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU6 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU7 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU8 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral/ALU9 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior F:|KOLIA-3Y|computer architecture|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/REGF - RegisterFile - Behavioral</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>uut - MainModule - Behavioral (D:/Xilinix/Projects/SingleBitALU/MainModule.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a6000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a60000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>uut - MainModule - Behavioral (D:/Xilinix/Projects/SingleBitALU/MainModule.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000165000000010000000100000000000000000000000064ffffffff000000810000000000000001000001650000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Reg32_1.vhd</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff0000008100000000000000040000007700000001000000000000002400000001000000000000006600000001000000000000017c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Reg32_1.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>register.vhd</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >9</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000000f8000000010001000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>register.vhd</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>View RTL Schematic</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000154000000010000000100000000000000000000000064ffffffff000000810000000000000001000001540000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>View RTL Schematic</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff000000000000000200000102000000c601000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_PACKAGE_BODY" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_PACKAGE_DECL" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALU - Behavioral D:|Xilinix|Projects|SingleBitALU|FullALU.vhd</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU1 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU10 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU11 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU12 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU13 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU14 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU15 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU16 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU17 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU18 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU19 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU2 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU20 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU21 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU22 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU23 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU24 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU25 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU26 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU27 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU28 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU29 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU3 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU30 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU31 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU32 - MSBALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU32 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU4 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU5 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU6 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU7 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU8 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/ALUTest - behavior C:|Users|farouk|Downloads|Compressed|Milestone1|Milestone1|TestCases|ALUTest.vhd/uut - ALU - Behavioral/ALU9 - SingleBitALU - Behavioral</ClosedNode>
+         <ClosedNode>/FullALU - Behavioral D:|Xilinix|Projects|SingleBitALU|FullALU.vhd</ClosedNode>
+         <ClosedNode>/MULTest - behavior D:|Xilinix|Projects|SingleBitALU|MULTest.vhd/uut - MUL - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFileT - Behavioral D:|Xilinix|Projects|SingleBitALU|RegisterFileT.vhd</ClosedNode>
+         <ClosedNode>/RegisterFileTest - behavior D:|Xilinix|Projects|SingleBitALU|RegisterFileTest.vhd/uut - RegisterFile - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior D:|Xilinix|Projects|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUAdd2 - ALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior D:|Xilinix|Projects|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUAddPc - ALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior D:|Xilinix|Projects|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior D:|Xilinix|Projects|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/REGF - RegisterFile - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior E:|kolia|archi|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/ALUR - ALU - Behavioral</ClosedNode>
+         <ClosedNode>/RobotTest - behavior E:|kolia|archi|project|SingleBitALU|RobotTest.vhd/uut - MainModule - Behavioral/REGF - RegisterFile - Behavioral</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>RobotTest - behavior (D:/Xilinix/Projects/SingleBitALU/RobotTest.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >6</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a6000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a60000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>RobotTest - behavior (D:/Xilinix/Projects/SingleBitALU/RobotTest.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+</Project>
